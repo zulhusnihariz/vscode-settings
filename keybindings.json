@@ -1,0 +1,84 @@
+
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "ctrl+shift+/",
+		"command": "editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+a",
+		"command": "-editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+alt+x",
+		"command": "workbench.files.action.collapseExplorerFolders"
+	},
+
+	// navigation
+
+	{
+		"key": "ctrl+shift+h",
+		"command": "workbench.action.terminal.focusNext",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+l",
+		"command": "workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+j",
+		"command": "workbench.action.togglePanel",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+n",
+		"command": "workbench.action.terminal.new",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "workbench.action.terminal.kill",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "alt+j",
+		"command": "selectNextSuggestion",
+		"when": "textInputFocus && suggestWidgetVisible && suggestWidgetMultipleSuggestions "
+	},
+	{
+		"key": "alt+k",
+		"command": "selectPrevSuggestion",
+		"when": "textInputFocus && suggestWidgetVisible && suggestWidgetMultipleSuggestions"
+	},
+
+	{
+		"key": "alt+j",
+		"command": "workbench.action.quickOpenNavigateNext",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "alt+k",
+		"command": "workbench.action.quickOpenNavigatePrevious",
+		"when": "inQuickOpen"
+	},
+
+	// file tree
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+n",
+		"command": "explorer.newFolder",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "deleteFile",
+		"when": "explorerViewletFocus"
+	}
+]
