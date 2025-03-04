@@ -1,0 +1,135 @@
+
+{
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.semi": false,
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"prettier.useTabs": true,
+	"prettier.htmlWhitespaceSensitivity": "ignore",
+	"explorer.confirmDelete": false,
+	"auto-rename-tag.activationOnLanguage": ["*"],
+	// "[rust]": {
+	// 	"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	// },
+	"workbench.startupEditor": "none",
+	"explorer.confirmDragAndDrop": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.prettierPath": "./node_modules/prettier",
+	"terminal.integrated.env.linux": {},
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.inlineSuggest.enabled": false,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"workbench.colorTheme": "Monokai",
+	"editor.lineNumbers": "relative",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"rome.lspBin": "",
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"svelte.plugin.svelte.format.enable": true,
+	"svelte.enable-ts-plugin": true,
+	/* 	"[rust]": {
+		"editor.defaultFormatter": "jinxdash.prettier-rust"
+	}, */
+	"editor.minimap.enabled": false,
+	"editor.mouseWheelZoom": true,
+	"liveServer.settings.port": 5173,
+	"vim.leader": "<Space>",
+	// Navigation
+	"vim.normalModeKeyBindingsNonRecursive": [
+		// switch between buffers
+		{ "before": ["<S-h>"], "commands": [":bprevious"] },
+		{ "before": ["<S-l>"], "commands": [":bnext"] },
+		// splits
+		{ "before": ["leader", "v"], "commands": [":vsplit"] },
+		{ "before": ["leader", "s"], "commands": [":split"] },
+		// panes
+		{
+			"before": ["leader", "h"],
+			"commands": ["workbench.action.focusLeftGroup"]
+		},
+		{
+			"before": ["leader", "j"],
+			"commands": ["workbench.action.focusBelowGroup"]
+		},
+		{
+			"before": ["leader", "k"],
+			"commands": ["workbench.action.focusAboveGroup"]
+		},
+		{
+			"before": ["leader", "l"],
+			"commands": ["workbench.action.focusRightGroup"]
+		},
+		// file tree
+		{
+			"before": ["leader", "n", "e"],
+			"commands": ["workbench.explorer.fileView.focus"]
+		},
+		// nice to have
+		{
+			"before": ["leader", "w"],
+			"commands": ["workbench.action.files.save"]
+		},
+		{
+			"before": ["leader", "d", "s"],
+			"commands": ["workbench.action.gotoSymbol"]
+		},
+		{
+			"before": ["leader", "p"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		{
+			"before": ["leader", "c"],
+			"commands": ["editor.action.clipboardCopyAction"]
+		},
+		{
+			"before": ["leader", "v"],
+			"commands": ["editor.action.clipboardPasteAction"]
+		}
+	],
+	// from iqbal
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"workbench.editor.tabSizing": "shrink",
+	"editor.formatOnSaveMode": "file",
+	"eslint.format.enable": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"files.associations": {
+		"*.css": "tailwindcss",
+		"*.scss": "postcss"
+	},
+	"search.exclude": {
+		"**/node_modules": false,
+		"**/node_moduls": true
+	},
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"[astro]": {
+		"editor.defaultFormatter": "astro-build.astro-vscode"
+	},
+	"prettier.bracketSameLine": true,
+	"vim.useSystemClipboard": true,
+	"prisma.showPrismaDataPlatformNotification": false,
+	"terminal.integrated.scrollback": 100000,
+
+	"[go]": {
+		"editor.insertSpaces": true,
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "golang.go"
+	},
+	"console-ninja.featureSet": "Community",
+	"typescript.preferGoToSourceDefinition": true,
+	"[proto3]": {
+		"editor.defaultFormatter": "zxh404.vscode-proto3"
+	},
+	"go.toolsManagement.autoUpdate": true,
+	"leetcode.workspaceFolder": "/root/.leetcode",
+	"leetcode.defaultLanguage": "golang",
+	"workbench.editorAssociations": {
+		"{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+	}
+}
